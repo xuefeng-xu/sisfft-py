@@ -2,7 +2,7 @@ import numpy as np
 import unittest
 import logging
 
-import cache
+from . import cache
 
 from sisfft.timer import timer
 from sisfft import _sisfft as sisfft, _utils as utils, _naive as naive

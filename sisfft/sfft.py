@@ -1,6 +1,6 @@
 import numpy as np
-import sisfft, utils, naive
-from timer import timer
+from . import sisfft, utils, naive
+from .timer import timer
 
 def sfft_pvalue(log_pmf, s0, L):
     theta = sisfft._compute_theta(log_pmf, s0, L)

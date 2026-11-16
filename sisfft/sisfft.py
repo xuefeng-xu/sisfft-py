@@ -2,9 +2,9 @@ import numpy as np, scipy as sc
 from numpy.fft import fft, ifft
 from scipy import optimize
 import logging
-import afftc, naive, utils
-from utils import NEG_INF, EPS
-from timer import timer
+from . import afftc, naive, utils
+from .utils import NEG_INF, EPS
+from .timer import timer
 
 OPT_BOUND = 1e10
 THETA_LIMIT = 1e4

@@ -1,10 +1,10 @@
 import numpy as np
 from numpy import fft
-from timer import timer
+from .timer import timer
 import unittest
 
-from utils import NEG_INF
-import utils
+from .utils import NEG_INF
+from . import utils
 
 def convolve_naive(log_u, log_v):
     nu = len(log_u)

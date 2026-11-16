@@ -3,11 +3,11 @@ import numpy as np, scipy as sc
 from numpy import fft
 from scipy import optimize
 
-from timer import timer
+from .timer import timer
 import logging
 
-import naive, utils
-from utils import NEG_INF, EPS
+from . import naive, utils
+from .utils import NEG_INF, EPS
 
 COST_RATIO = 0.5
 # when we square we do approximately half the work of a general
